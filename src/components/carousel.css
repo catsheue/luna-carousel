@@ -1,0 +1,45 @@
+body{ min-height: 100vh;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.luna * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.luna{
+
+    /*width: 50%;*/
+    /*height: 100%;*/
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+
+}
+.luna__inner {
+   position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+white-space: nowrap;
+    /*display: flex;*/
+}
+
+.luna__inner div {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.luna__inner div * {
+    width: 100%;
+    text-align: left;
+    height: 100vh;
+}
